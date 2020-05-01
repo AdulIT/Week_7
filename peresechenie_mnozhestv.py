@@ -1,0 +1,5 @@
+firstList = map(int, input().split())
+secondList = map(int, input().split())
+firstSet = set(firstList)
+secondSet = set(secondList)
+print(*sorted(firstSet & secondSet))
